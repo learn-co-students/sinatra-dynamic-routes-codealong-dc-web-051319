@@ -22,6 +22,6 @@ class App < Sinatra::Base
     @product = params[:num1].to_i * params[:num2].to_i
     "#{@product}"
   end
-  # Code your final two routes here:
+    # Code your final two routes here:
 
 end
